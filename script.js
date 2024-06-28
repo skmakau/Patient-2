@@ -128,20 +128,20 @@ document.addEventListener("DOMContentLoaded", function() {
         } else if (scaleType === "drinking") {
             legendTitle.innerText = "Drinking Scale";
             scaleList.innerHTML = `
-                <div class="scale-item">0 = No tremor</div>
-                <div class="scale-item">1 = Slight tremor, not affecting drinking</div>
-                <div class="scale-item">2 = Moderate tremor, some difficulty drinking</div>
-                <div class="scale-item">3 = Marked tremor, significant difficulty drinking</div>
-                <div class="scale-item">4 = Severe tremor, unable to drink</div>
+                <div class="scale-item">0 = Normal</div>
+                <div class="scale-item">1 = Slight tremor, not affecting drinking.</div>
+                <div class="scale-item">2 = Moderate tremor, some difficulty drinking.</div>
+                <div class="scale-item">3 = Marked tremor, significant difficulty drinking.</div>
+                <div class="scale-item">4 = Severe tremor, unable to drink.</div>
             `;
         } else if (scaleType === "spiral") {
             legendTitle.innerText = "Spiral Scale";
             scaleList.innerHTML = `
-                <div class="scale-item">0 = No tremor</div>
-                <div class="scale-item">1 = Slight tremor, not affecting spiral drawing</div>
-                <div class="scale-item">2 = Moderate tremor, some difficulty drawing spiral</div>
-                <div class="scale-item">3 = Marked tremor, significant difficulty drawing spiral</div>
-                <div class="scale-item">4 = Severe tremor, unable to draw spiral</div>
+                <div class="scale-item">0 = Normal</div>
+                <div class="scale-item">1 = Slightly tremulous. May cross lines occasionally.</div>
+                <div class="scale-item">2 = Moderately tremulous or crosses lines frequently.</div>
+                <div class="scale-item">3 = Accomplishes the task with great difficulty. Many errors.</div>
+                <div class="scale-item">4 = Unable to complete drawing.</div>
             `;
         }
     }
