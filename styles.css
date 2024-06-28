@@ -99,7 +99,10 @@ flex-wrap: wrap;
 justify-content: space-between;
 gap: 20px;
 align-items: flex-start;
+margin-bottom: 50px; /* Ensure enough space between video groups */
 }
+
+
 
 .video-section {
 flex: 1 1 30%; /* Adjust this value to fit three videos per row */
