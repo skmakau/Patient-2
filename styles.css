@@ -50,19 +50,22 @@ color: white;
 margin: 0;
 }
 
+
 /* Main Content Styles */
 .main-content {
-flex: 1;
-width: 100%;
-max-width: 1200px;
-padding: 100px 20px 20px 20px;
-background: #fff;
-border-radius: 10px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-margin-top: 20px;
-overflow-y: auto;
-text-align: center;
+    flex: 1;
+    width: calc(100% - 300px); /* Adjust width to account for the legend */
+    max-width: 1200px;
+    padding: 100px 20px 20px 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    overflow-y: auto;
+    text-align: center;
 }
+
+
 
 /* General Styling */
 h1 {
@@ -165,21 +168,23 @@ input[type="text"] {
 .submit-btn:active {
     background: #3e8e41;
 }
+
+
 /* Legend Styles */
 .legend {
-flex: 0 0 250px;
-background: #e9f5e9;
-color: #333;
-padding: 15px;
-border-radius: 10px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-position: fixed;
-bottom: 20px;
-left: 50%;
-transform: translateX(-50%);
-z-index: 1000;
-display: none;
+    flex: 0 0 250px;
+    background: #e9f5e9;
+    color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 20px;
+    left: 20px; /* Move legend to the left */
+    z-index: 1000;
+    display: none;
 }
+
 
 .legend h3 {
 font-size: 1.2em;
