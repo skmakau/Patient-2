@@ -87,6 +87,7 @@ form {
 }
 
 .form-group {
+    margin-top: 20px; /* Add margin to separate from rating scales */
     margin-bottom: 20px;
 }
 
@@ -116,23 +117,24 @@ form {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Rating Scale Styles */
 .rating-scale {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
+    gap: 8px; /* Adjusted for smaller size */
+    margin-top: 8px; /* Adjusted for smaller size */
 }
 
 .rating-scale-combined {
     flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
+    gap: 8px; /* Adjusted for smaller size */
 }
 
 .rating-section {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 8px; /* Adjusted for smaller size */
 }
 
 .rating-scale input[type="radio"] {
@@ -141,12 +143,12 @@ form {
 
 .rating-scale label {
     background: #e4e4e4;
-    border-radius: 50%;
-    padding: 7px 10px; /* Reduced size */
+    border-radius: 5px; /* Rounded edges */
+    padding: 8px 12px; /* Reduced padding for smaller size */
     cursor: pointer;
     transition: background 0.3s;
-    font-size: 0.8em; /* Adjust font size to fit */
-    max-width: 60px; /* Adjust width for long text */
+    font-size: 0.8em; /* Reduced font size for smaller size */
+    max-width: 48px; /* Reduced width for smaller size */
     word-wrap: break-word; /* Wrap long text */
     text-align: center;
 }
@@ -157,7 +159,7 @@ form {
 }
 
 .rating-scale label:hover {
-    background: #ccc;
+    background: #b0e57c; /* Light green on hover */
 }
 
 input[type="text"], textarea {
